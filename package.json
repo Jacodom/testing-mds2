@@ -14,9 +14,17 @@
     "test:playwright-all": "npx playwright test",
     "test:watch": "jest --watch --testPathPattern=unit",
     "report": "allure generate allure-results --clean && allure open",
-    "coverage": "npm run test:unit && open coverage/lcov-report/index.html"
+    "coverage": "npm run test:unit && start coverage/lcov-report/index.html",
+    "analysis": "npm run test:unit && open coverage/lcov-report/index.html"
   },
-  "keywords": ["testing", "unit-testing", "integration-testing", "playwright", "jest", "typescript"],
+  "keywords": [
+    "testing",
+    "unit-testing",
+    "integration-testing",
+    "playwright",
+    "jest",
+    "typescript"
+  ],
   "author": "UTN",
   "license": "MIT",
   "devDependencies": {
