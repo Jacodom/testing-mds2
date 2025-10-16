@@ -5,6 +5,7 @@ import {
   CreateUserRequest,
   UpdateUserRequest,
 } from "../../src/models/user.model";
+import {jest, describe, it, beforeEach, expect} from '@jest/globals';
 
 /**
  * EJEMPLO DE UNIT TEST
