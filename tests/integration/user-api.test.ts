@@ -48,12 +48,14 @@ test.describe("User API - Integration Tests", () => {
     let createdUserId: string;
 
     test("should create a new user successfully", async ({ request }) => {
+      // arrange
       const userData = {
         name: "Juan Pérez",
         email: "juan.perez@example.com",
         age: 25,
       };
 
+      //act
       const response = await request.post(`${API_BASE}/users`, {
         data: userData,
       });

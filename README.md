@@ -23,6 +23,75 @@ testing-examples/
 └── allure-report/               # Reportes HTML
 ```
 
+## 🎓 **NUEVO: Guía Completa de Test-Driven Development (TDD)**
+
+Este repositorio ahora incluye una **guía completa para enseñar TDD** a estudiantes:
+
+### 📚 Recursos TDD Disponibles
+
+1. **[TDD_GUIDE.md](./TDD_GUIDE.md)** - Guía teórica completa de TDD
+
+   - Conceptos fundamentales del ciclo RED-GREEN-REFACTOR
+   - Beneficios y filosofía del TDD
+   - Ejercicios progresivos de práctica
+   - Mejores prácticas y errores comunes
+
+2. **[TDD_PRACTICAL_EXAMPLE.md](./TDD_PRACTICAL_EXAMPLE.md)** - Ejemplo práctico
+
+   - Implementación paso a paso usando el UserService existente
+   - Ciclo completo RED-GREEN-REFACTOR con código real
+   - Ejercicios para estudiantes
+
+3. **[TDD_STACK_BEST_PRACTICES.md](./TDD_STACK_BEST_PRACTICES.md)** - Mejores prácticas del stack
+
+   - Configuración óptima de Jest + TypeScript para TDD
+   - Patrones específicos para Playwright + TDD
+   - Debugging y performance tips
+
+4. **[tdd-exercises/](./tdd-exercises/)** - Ejercicios prácticos progresivos
+   - Calculadora básica (fundamentos)
+   - Validadores (clases y objetos)
+   - Servicios con dependencias (mocking)
+   - Soluciones de referencia incluidas
+
+### 🚀 Cómo Usar para Enseñar TDD
+
+#### Para Profesores:
+
+```bash
+# 1. Introducir conceptos con la guía teórica
+open TDD_GUIDE.md
+
+# 2. Demostrar con ejemplo práctico del proyecto
+open TDD_PRACTICAL_EXAMPLE.md
+
+# 3. Ejercicios hands-on progresivos
+cd tdd-exercises/01-calculator
+npm run test:watch
+```
+
+#### Para Estudiantes:
+
+```bash
+# 1. Leer la guía teórica primero
+# 2. Seguir el ejemplo práctico
+# 3. Hacer ejercicios en orden progresivo
+# 4. Aplicar mejores prácticas del stack
+```
+
+### 🎯 Objetivos de Aprendizaje TDD
+
+Al completar esta guía, los estudiantes sabrán:
+
+- ✅ Aplicar el ciclo RED-GREEN-REFACTOR
+- ✅ Escribir tests antes que el código
+- ✅ Refactorizar con confianza usando tests
+- ✅ Diseñar APIs mejores a través de tests
+- ✅ Manejar dependencias con mocks
+- ✅ Estructurar tests mantenibles
+
+---
+
 ## 🚀 Comandos de Testing
 
 ### Prerequisitos
