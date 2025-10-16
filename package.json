@@ -16,10 +16,18 @@
     "report": "allure generate allure-results --clean && allure open",
     "coverage": "npm run test:unit && open coverage/lcov-report/index.html"
   },
-  "keywords": ["testing", "unit-testing", "integration-testing", "playwright", "jest", "typescript"],
+  "keywords": [
+    "testing",
+    "unit-testing",
+    "integration-testing",
+    "playwright",
+    "jest",
+    "typescript"
+  ],
   "author": "UTN",
   "license": "MIT",
   "devDependencies": {
+    "@jest/globals": "^30.2.0",
     "@playwright/test": "^1.40.0",
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.8",
