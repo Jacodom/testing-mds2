@@ -47,16 +47,6 @@ export default defineConfig({
   /* Configure projects for different test types */
   projects: [
     {
-      name: "unit",
-      fullyParallel: true, // Unit tests pueden correr en paralelo
-      testDir: "tests/unit",
-      testMatch: "*.test.ts",
-      // Unit tests no necesitan browser context
-      use: {
-        // Deshabilitar browser para unit tests
-      },
-    },
-    {
       name: "integration",
       fullyParallel: false,
       testDir: "tests/integration",
