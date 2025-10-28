@@ -1,6 +1,8 @@
 # 🧪 Testing Examples Repository
 
-Este repositorio contiene ejemplos completos de **Unit Testing** e **Integration Testing** para enseñar testing a estudiantes.
+[![CI/CD Pipeline](https://github.com/Jacodom/testing-mds2/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Jacodom/testing-mds2/actions/workflows/ci-cd.yml)
+
+Este repositorio contiene ejemplos completos de **Unit Testing** e **Integration Testing** para enseñar testing a estudiantes, con un pipeline de **CI/CD automatizado**.
 
 ## 📋 Contenido
 
