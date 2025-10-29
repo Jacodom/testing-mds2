@@ -26,7 +26,7 @@ export class UserService {
     }
 
     if (userData.name.trim().length < 2) {
-      throw new Error("El nombre debe tener al menos 2 caracteres");
+      throw new Error("El nombre debe tener al menos 2 caracteres.");
     }
 
     // Verificar que el email no esté en uso
