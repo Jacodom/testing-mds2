@@ -22,7 +22,7 @@ export class UserService {
     }
 
     if (userData.age < 0 || userData.age > 120) {
-      throw new Error("Edad debe estar entre 0 y 120 años");
+      throw new Error("Edad debe estar entre 0 y 120 años.");
     }
 
     if (userData.name.trim().length < 2) {
